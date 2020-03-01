@@ -1,0 +1,48 @@
+// 修改 boostrap
+.card {
+    display: block;
+}
+
+// 自己的樣式
+.icon-style {
+    background: #f1f1f1;
+    border-radius: 50% !important;
+    box-sizing: content-box;
+
+    &:hover {
+        background: skyblue;
+    }
+}
+
+.icon-5 {
+    width: 64px;
+    height: 64px;
+}
+
+
+.icon-4 {
+    width: 32px;
+    height: 32px;
+}
+
+
+// RWD
+// >= 1024
+@media screen and (min-width: 1024px) {
+    .carousel-inner {
+        height: 80vh;
+
+        .carousel-caption {
+            bottom: 100vh * 0.2;
+        }
+    }
+}
+
+// >= 1200
+@media screen and (min-width: 120px) {
+    .carousel-inner {
+        .carousel-caption {
+            bottom: 600px;
+        }
+    }
+}
