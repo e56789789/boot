@@ -46,3 +46,14 @@
         }
     }
 } 
+
+.navbar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 1px;
+      background-color:blue;  //此处是我修改的地方
+      background-image: url("../App_Themes/header.jpg");
+      border: 1px solid transparent;
+     
+    }
+  
