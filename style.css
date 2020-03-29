@@ -22,4 +22,10 @@
   width: 32px;
   height: 32px;
 }
+
+
+.carousel-item .active .img{
+  width: 25%;
+}
+
 /*# sourceMappingURL=style.css.map */
